@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+main{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 50px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(orange,purple);    
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  text-align: center;   
+  overflow-x: hidden; 
+}
+
+.box {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+  max-width: 900px; 
+  height: 100px;
+  gap: 15px;
+}
+
+input {
+  border: none;
+  font-size: 20px; 
+  border-radius: 15px;
+  padding: 10px;
+  color: black;
+  width: 100%; 
+  max-width: 300px; 
+}
+
+button{
+  font-size: 20px; 
+  padding: 10px;
+}
+
+.list{
+  margin-left: -200px;
+}
+
+#main-card{
+  margin-top: 140px;
+  border: 2px solid black; 
+  height: 220px;
+  max-width: 500px; 
+  display: flex;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: rgb(19, 71, 45);
+  opacity: 0.8;
+  color: white;
+}
+
+#under-main{
+  background-color: transparent;
+  width: 60%;
+  text-align: start;
+  text-align: center;
+  padding: 15px;
+}
+
+#under-main-2{
+  width: 40%;
+}
+
+#under-main-2 i{
+  font-size: 25px;
+  position: relative; 
+  left: 80px;
+  cursor: pointer;
+}
+
+.l-list{
+  display: flex;
+  gap: 10%; 
+  margin-top: 10%;  
+}
+
+.temp{
+  display: flex;
+  gap: 20%;
+}
+
+
+body{
+  background-image: url(https://img.freepik.com/free-photo/natural-route-through-window-with-rain-drops_53876-126928.jpg?ga=GA1.1.1444156400.1713463330&semt=ais_hybrid);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.clear{
+  background-image: url(https://img.freepik.com/premium-photo/sky-clouds-morning-before-rain-falls_46176-375.jpg?ga=GA1.1.1444156400.1713463330&semt=ais_hybrid);
+}
+
+.haze{
+  background-image: url(https://img.freepik.com/free-photo/beautiful-city-landscape-daytime-high-angle_23-2149444923.jpg?ga=GA1.1.1444156400.1713463330&semt=ais_hybrid);
+}
+
+.clouds{
+  background-image: url(https://img.freepik.com/premium-photo/nice-sky-with-clouds_1174497-99139.jpg?ga=GA1.1.1444156400.1713463330&semt=ais_hybrid);
+}
+
+.rain{
+  background-image: url(https://img.freepik.com/premium-photo/childs-laughter-joy-rainy-day-water-playtime_1092689-63594.jpg?ga=GA1.1.1444156400.1713463330&semt=ais_hybrid);
+}
+
+.fog{
+  background-image: url(https://img.freepik.com/free-photo/vanishing-point-leads-spooky-forest-mystery-generated-by-ai_188544-25589.jpg?ga=GA1.1.1444156400.1713463330&semt=ais_hybrid);
+}
+
+.storm{
+  background-image: url(https://img.freepik.com/free-photo/photorealistic-style-clouds-storm_23-2151058926.jpg?ga=GA1.1.1444156400.1713463330&semt=ais_hybrid);
+}
+
+.Winter-storm{
+  background-image: url(https://img.freepik.com/free-photo/weather-effects-collage-concept_23-2150062071.jpg?ga=GA1.1.1444156400.1713463330&semt=ais_hybrid);
+}
+
+.mist{
+  background-image: url(https://img.freepik.com/free-photo/forest-cloud-top-mountain_1150-10761.jpg?ga=GA1.1.1444156400.1713463330&semt=ais_hybrid);
+}
+
+@media (max-width: 768px) {
+  .box {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+    
+  }
+
+  input, button {
+    font-size: 16px;
+    width: 100%; 
+  }
+
+  #main-card {
+    margin-top: 20px;
+    height: auto; 
+    padding-right: 90px;
+    min-width: 100%;
+    max-width: 350px;
+    margin-top: 60px;
+  }
+
+  .l-list {
+    gap: 10%; 
+  }
+
+  #under-main {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  input {
+    font-size: 14px; 
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  #main-card {
+    padding: 10px;
+    width: 100%;
+    padding-right: 50px;
+    max-width: 300px;
+  }
+
+  .l-list {
+    gap: 5%;
+  }
+}
+
